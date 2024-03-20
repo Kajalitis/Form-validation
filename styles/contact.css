@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#form {
+  width: 30vw;
+  height: 120vh;
+  margin-left: 35vw;
+  padding-top: 10vh;
+  font-size: large;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.4px);
+  -webkit-backdrop-filter: blur(0.4px);
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  color: white;
+}
+
+body {
+  text-align: center;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 150vh;
+}
+
+input,
+textarea {
+  margin-bottom: 0.5vw;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  width: 5%;
+  box-sizing: border-box;
+}
+
+#back {
+  position: absolute;
+  color: white;
+  top: 2vh;
+  text-decoration: underline;
+  left: 3vw;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#back:hover {
+  text-shadow: 3px 3px 5px white;
+}
+
+button {
+  width: 20vw;
+  height: 7vh;
+  margin: 5vw;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  box-shadow:
+    3px 3px 5px white,
+    -3px -3px 5px white;
+}
+
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  line-height: normal;
+  width: 20px;
+  height: 20px;
+}

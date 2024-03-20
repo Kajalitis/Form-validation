@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <script defer src="../scripts/contactscript.js"></script>
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div id="form">
+      Firstname<br />
+      <input
+        id="firstname"
+        placeholder="enter your first name"
+        type="text"
+        class="input"
+      /><br />
+      LastName <br />
+      <input
+        id="lastname"
+        placeholder="enter your last name"
+        type="text"
+        class="input"
+      /><br />
+      Age<br />
+      <input
+        id="age"
+        placeholder="enter your age"
+        type="number"
+        class="input"
+      /><br />
+      Mobile Number<br />
+      <input
+        id="mobilenumber"
+        placeholder="enter your mobile number"
+        type="number"
+        class="input"
+      /><br />
+      Alternate Mobile Number<br />
+      <input
+        id="alternate-number"
+        placeholder="enter an alternate number for contact"
+        type="number"
+        class="input"
+      /><br />
+      Email<br />
+      <input
+        placeholder="enter your email"
+        type="email"
+        class="input"
+        id="email"
+      /><br />
+      Current Address<br />
+      <textarea id="currentaddress" placeholder="Current Address"></textarea
+      ><br />
+      <br />
+      <input onchange="check()" name="check" id="radio" type="checkbox" />
+      <label for="check"
+        >Check if Permanent address same as current address </label
+      ><br />
+      <br />
+      Permanent address<br />
+      <textarea id="Permanentaddress" placeholder="Permanent Address"></textarea
+      ><br />
+      <button onClick="OnSubmit()">Submit</button>
+    </div>
+    <a href="/index.html"><div id="back">Back</div></a>
+  </body>
+</html>

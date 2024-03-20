@@ -1,0 +1,63 @@
+.login-form {
+  width: 30vw;
+  height: 70vh;
+  margin-left: 35vw;
+  padding-top: 10vh;
+  font-size: large;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.4px);
+  -webkit-backdrop-filter: blur(0.4px);
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  color: white;
+}
+body {
+  text-align: center;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  color: plum;
+}
+a:hover {
+  color: red;
+  cursor: pointer;
+}
+#back {
+  position: absolute;
+  color: white;
+  top: 2vh;
+  text-decoration: underline;
+  left: 3vw;
+  font-size: larger;
+  cursor: pointer;
+}
+#back:hover {
+  text-shadow: 3px 3px 5px white;
+}
+input {
+  margin-bottom: 5px;
+  /* Add some basic input styles */
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  box-sizing: border-box;
+}
+button {
+  width: 20vw;
+  height: 10vh;
+  margin: 5vw;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow:
+    3px 3px 5px white,
+    -3px -3px 5px white;
+}
